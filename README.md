@@ -64,7 +64,7 @@ Num primeiro momento, a Education Journey decidiu em fazer a integração para a
 
 ### Criação de Assinatura via _webhook_
 ___
-Reconhecemos que muitos parceiros rodam seus cursos em plataformas de terceiros que possuem um suporte para integração via _webhooks_, como o Kajabi. Para esses parceiros, os links dos _webhooks_ e de uma documentação são o suficiente para a Education Journey. Se esse não for o caso, a criação desse _endpoint_ deverá ser criado conforme especificado abaixo.
+Reconhecemos que muitos parceiros rodam seus cursos em plataformas de terceiros que possuem um suporte para integração via _webhooks_, como o Kajabi. Para esses parceiros, os links dos _webhooks_ e de uma documentação são o suficiente para a Education Journey. Se esse não for o caso, a criação desse _endpoint_ deverá ser realizada conforme especificado abaixo.
 
 #### Request
 Método: `POST`
