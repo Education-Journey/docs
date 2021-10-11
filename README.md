@@ -79,11 +79,14 @@ Path: `/subscriptions/create`
   "user_first_name": "Artur",
   "user_last_name": "Barbosa",
   "user_full_name": "Artur Barbosa",
-  "user_email": "artur@educationjourney.com"
+  "user_email": "artur@educationjourney.com",
+  "user_password": "8e9enwjed"
 }
 ```
 
 Lembrando que esse _endpoint_ pode e deve ser customizado de acordo com as necessidades do parceiro. Os _request body_ acima representa as informações que a Education Journey **pode** enviar para o parceiro. Em quase todos os casos, será necessário que o parceiro envie para o time de tecnologia da Education Journey as especificações de como o _endpoint_ foi implementado, incluindo informações adicionais (como identificador da empresa origem, ex: "educationjourney"), dados que não serão utilizados, como o `user_external_id`, e dados que precisarão ser transformados, como `full_name`, `first_name`, `last_name`.
+
+O e-mail deverá ser enviado pela Education Journey.
 
 #### Response
 A resposta deverá ser em formato `JSON`, seguindo o seguite template:
